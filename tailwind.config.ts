@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,17 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// SwiftUI Dashboard Colors
+				swiftui: {
+					'primary': '#A3D8F4',  // Light blue
+					'primary-dark': '#1EAEDB', // Darker blue for icons
+					'alert': '#FF6B6B',    // Red for alerts
+					'positive': '#2ECC71', // Green for positive trends
+					'negative': '#ea384c', // Red for negative trends
+					'purple': '#9277FF',   // Purple for pending appointments
+					'completed': '#33C3F0', // Blue for completed appointments
+					'canceled': '#ea384c',  // Red for canceled appointments
 				}
 			},
 			borderRadius: {
